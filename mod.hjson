@@ -1,0 +1,10 @@
+{
+	name: "flarogus-mod"
+	displayName: "Flarogus"
+	author: "BalaM314"
+	description: "Adds flarogus to Mindustry."
+	version: "1.0"
+	minGameVersion: "136.1"
+	dependencies: [ ]
+	hidden: false
+}

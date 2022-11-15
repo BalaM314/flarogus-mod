@@ -1,0 +1,46 @@
+type: flying
+flying: true
+health: 69420
+speed: 3.6
+engineSize: 0 #to stop it from autogenerating one
+engines: [
+	{
+		x: -2
+		y: -8
+		radius: 4
+		rotation: -90
+	},
+	{
+		x: 2
+		y: -8
+		radius: 4
+		rotation: -90
+	}
+]
+weapons: [{
+	name: flarogus-weapon
+	x: 0
+	y: 0
+	rotate: true
+	rotateSpeed: 6.9
+	reload: 30
+	recoil: 5
+	shootY: 10
+	shootSound: pew
+	mirror: false
+	bullet: {
+		type: BasicBulletType
+		damage: 42
+		splashDamage: 6.9
+		splashDamageRadius: 40
+		speed: 8
+		lifetime: 25
+		width: 12
+		height: 12
+		hitShake: 1
+		smokeEffect: shootSmallSmoke
+		shootEffect: shootSmallSmoke
+		hitEffect: massiveExplosion
+		recoil: -0.2
+	}
+}]
