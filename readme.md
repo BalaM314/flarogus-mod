@@ -1,7 +1,7 @@
 # Flarogus
 A sussy mod for Mindustry by BalaM314.
 
-!(sprites/units/flarogus.png)[Flarogus image]
+![Flarogus image](sprites/units/flarogus.png)
 
 Behold, the flarogus.
 
